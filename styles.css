@@ -1,4 +1,4 @@
-/* Skanda BS Portfolio - Refined, Professional Styles */
+/* Skanda BS Portfolio - Refined Black & Orange Theme */
 
 /* Clean Custom Scrollbar */
 ::-webkit-scrollbar {
@@ -6,20 +6,20 @@
   height: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #090D16;
+  background: #0A0A0A;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1E293B;
+  background: #222222;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: #F97316;
 }
 
 /* Base Body Styles */
 body {
-  background-color: #090D16;
-  color: #F1F5F9;
+  background-color: #0A0A0A;
+  color: #EDEDED;
 }
 
 /* Realistic Skill Tags */
@@ -31,16 +31,16 @@ body {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.72rem;
   font-weight: 500;
-  background-color: #111827;
-  color: #CBD5E1;
-  border: 1px solid #1E293B;
+  background-color: #141414;
+  color: #D4D4D8;
+  border: 1px solid #262626;
   transition: all 0.15s ease-in-out;
 }
 
 .skill-tag:hover {
-  border-color: #3B82F6;
+  border-color: #F97316;
   color: #FFFFFF;
-  background-color: #1E293B;
+  background-color: #1C1C1C;
 }
 
 /* Subtle Card Hover Effects */
@@ -49,7 +49,7 @@ body {
 }
 
 .hover-subtle:hover {
-  border-color: #334155;
+  border-color: #383838;
 }
 
 /* Resume Document Styling */

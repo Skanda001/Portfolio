@@ -1,5 +1,5 @@
 /**
- * Skanda BS Portfolio - Script Engine
+ * Skanda BS Portfolio - Script Engine (Black & Orange Theme)
  * Clean, realistic interactions: Architecture Walkthrough, Resume Modal, Copy-to-Clipboard
  */
 
@@ -15,13 +15,13 @@ function selectArch(arch) {
   if (arch === 'shield') {
     viewShield.classList.remove('hidden');
     viewDebate.classList.add('hidden');
-    btnShield.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-blue-600 text-white transition-all';
-    btnDebate.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-slate-800 text-slate-300 hover:text-white transition-all';
+    btnShield.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-orange-500 text-black font-semibold transition-all';
+    btnDebate.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-[#141414] text-neutral-300 hover:text-white border border-[#222222] transition-all';
   } else {
     viewShield.classList.add('hidden');
     viewDebate.classList.remove('hidden');
-    btnDebate.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-blue-600 text-white transition-all';
-    btnShield.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-slate-800 text-slate-300 hover:text-white transition-all';
+    btnDebate.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-orange-500 text-black font-semibold transition-all';
+    btnShield.className = 'px-4 py-2 rounded-lg text-xs font-mono font-medium bg-[#141414] text-neutral-300 hover:text-white border border-[#222222] transition-all';
   }
 }
 
@@ -31,7 +31,7 @@ const realProbes = {
     input: "Fetch user order history for customer #4012",
     checks: "Prompt Injection: CLEAN (0.01)\nPII Risk: 0.00 (No sensitive patterns)",
     decision: "ALLOW &rarr; Executed via MCP Tool 'db_query_orders'",
-    decisionClass: "text-xs font-mono font-bold text-emerald-400 mt-1",
+    decisionClass: "text-xs font-mono font-bold text-orange-400 mt-1",
     audit: "[2026-10-05 10:45:00] INFO: Token validation passed. Risk score: 0.01. Tool call 'db_query_orders' authorized for session_id=sess_9021."
   },
   injection: {
