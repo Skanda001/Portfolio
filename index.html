@@ -67,9 +67,12 @@
       
       <!-- Brand -->
       <a href="#hero" class="flex items-center gap-2.5 group">
-        <div class="w-8 h-8 rounded-lg bg-orange-500/15 border border-orange-500/30 flex items-center justify-center font-mono font-bold text-sm text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors">
-          S
-        </div>
+        <img 
+          src="profile.png" 
+          alt="Skanda BS" 
+          class="w-8 h-8 rounded-full border border-orange-500/40 object-cover bg-neutral-900 group-hover:border-orange-500 transition-colors"
+          onerror="this.src='profile_square.png'"
+        />
         <div class="flex items-baseline gap-1.5">
           <span class="font-bold text-base text-white tracking-tight group-hover:text-orange-400 transition-colors">
             Skanda BS
@@ -191,12 +194,15 @@
         <div class="lg:col-span-4 flex justify-center">
           <div class="w-full max-w-sm p-6 rounded-2xl bg-[#121212] border border-[#222222] shadow-2xl">
             <div class="flex items-center gap-4">
-              <img 
-                src="https://avatars.githubusercontent.com/u/190056301?v=4" 
-                alt="Skanda BS" 
-                class="w-16 h-16 rounded-xl border border-[#2A2A2A] object-cover bg-neutral-900"
-                onerror="this.src='https://ui-avatars.com/api/?name=Skanda+BS&background=181818&color=F97316&size=128'"
-              />
+              <div class="relative flex-shrink-0">
+                <img 
+                  src="profile.png" 
+                  alt="Skanda BS" 
+                  class="w-20 h-20 rounded-full border-2 border-orange-500/50 p-0.5 object-cover bg-neutral-900 shadow-lg shadow-orange-500/10"
+                  onerror="this.src='profile_square.png'"
+                />
+                <span class="absolute bottom-0.5 right-0.5 w-3.5 h-3.5 rounded-full bg-emerald-500 border-2 border-[#121212]" title="Available for opportunities"></span>
+              </div>
               <div>
                 <h3 class="font-bold text-white text-base">Skanda BS</h3>
                 <p class="text-xs text-neutral-400">Robotics & AI Undergraduate</p>
