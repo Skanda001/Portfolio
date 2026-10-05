@@ -56,10 +56,13 @@ Then visit: [http://localhost:3000](http://localhost:3000)
 
 ## 🌐 Deployment
 
-### Deploy to GitHub Pages:
-1. Push this directory to a GitHub repository under `Skanda001`.
-2. Go to **Settings** > **Pages** > Select branch `main` or `master` > Click **Save**.
-3. Your portfolio will be live at `https://Skanda001.github.io/<repo-name>/`!
+### GitHub Pages:
+The repository is configured for GitHub Pages!
+1. Go to [Repository Settings](https://github.com/Skanda001/Portfolio/settings/pages).
+2. Under **Build and deployment** > **Source**:
+   - Select **GitHub Actions** (automated deployment workflow) OR **Deploy from a branch** (`main` / `root`).
+3. Your portfolio will be live at:
+   👉 **https://skanda001.github.io/Portfolio/**
 
 ### Deploy to Vercel:
 ```bash
